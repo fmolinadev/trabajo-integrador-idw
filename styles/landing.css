@@ -1,0 +1,77 @@
+.body_container {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.main_container {
+  display: flex;
+  margin-top: 20%;
+}
+
+.section_container {
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+}
+
+.section_container_text {
+  width: 700px;
+  margin-right: 20px;
+}
+
+.section_container_text_title {
+  color: var(--black);
+  font-size: 58px;
+  font-weight: 600px;
+  font-family: "Inter", sans-serif;
+}
+
+.section_container_text_describe {
+  color: var(--black);
+  font-size: 19px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.section_container_lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section_container_lateral_image {
+  display: flex;
+  width: 310px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 17px 22px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section_container_lateral_button {
+  display: flex;
+  background-color: var(--main-color-dark);
+  border-radius: 12px;
+  padding: 8px 12px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid var(--main-color-light);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.section_container_lateral_button:hover {
+  background-color: var(--main-color-light);
+  border: 1px solid var(--main-color-dark);
+  color: var(--main-color-dark);
+  cursor: pointer;
+}
