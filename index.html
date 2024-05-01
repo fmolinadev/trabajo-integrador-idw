@@ -31,7 +31,39 @@
       rel="stylesheet"
     />
     <link href="/index.css" rel="stylesheet" />
+    <link href="/styles/landing.css" rel="stylesheet" />
     <title>IDW</title>
   </head>
-  <body></body>
+  <body class="body_container">
+    <main class="main_container">
+      <section class="section_container">
+        <div class="section_container_text">
+          <h1 class="section_container_text_title">
+            Bienvenido/a a BookingIDW
+          </h1>
+          <br />
+          <p class="section_container_text_describe">
+            ¿Estas planificando tu próxima aventura? Estamos aquí para hacer que
+            tus sueños de viaje se hagan realidad. Ya sea que estés buscando un
+            refugio tranquilo en la playa, una escapada urbana llena de emoción
+            o un retiro en la naturaleza, ¡estás en el lugar correcto!
+          </p>
+        </div>
+        <div class="section_container_lateral">
+          <img
+            class="section_container_lateral_image"
+            src="./assets/images//landing_init.jpeg"
+            alt="vacations"
+          />
+          <button
+            class="section_container_lateral_button"
+            onclick="redirectToHomePage()"
+          >
+            Ver alojamientos
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="/services/landing.js"></script>
 </html>
