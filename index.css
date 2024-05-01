@@ -14,3 +14,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.title_font {
+  font-family: "Inter", sans-serif;
+}
+
+.text_font {
+  font-family: "Lora", serif;
+}
