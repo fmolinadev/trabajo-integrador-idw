@@ -1,0 +1,222 @@
+.body_container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.header_container_main {
+  display: flex;
+  background-color: var(--main-color-dark);
+  height: 60px;
+}
+
+.header_container_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  margin: auto;
+  width: 90%;
+}
+
+.header_branding {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 800px;
+  font-family: "Inter", sans-serif;
+}
+
+.header_navbar_container ul {
+  display: inline-flex;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+.header_navbar_container ul li {
+  color: var(--white);
+  text-decoration: none;
+  padding: 2px 13px;
+}
+
+.header_navbar_container ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.header_navbar_container ul li:hover a {
+  color: var(--main-details-up);
+}
+
+.main_container {
+  width: 100%;
+}
+
+.main_container_hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  position: relative;
+  height: 310px;
+  background-image: url("/assets/images/fondo_turismo_1.jpg");
+  background-size: cover;
+}
+
+.main_container_hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0; /* Asegura que el fondo oscuro esté detrás del contenido */
+}
+
+.main_section_text {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 120px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.main_section_text h3,
+.main_section_text p {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.main_section_text h3 {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.main_section_text p {
+  font-size: 19px;
+}
+
+.main_section_searchbar_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.main_section_searchbar_container input {
+  width: 455px;
+  height: 35px;
+  border-radius: 12px;
+  font-family: "Lora", serif;
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px 12px;
+  align-items: center;
+}
+
+.main_container_result {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  margin: auto;
+  width: 90%;
+}
+
+.all_results_container {
+  display: grid;
+  position: relative;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card_result_container {
+  border-radius: 12px;
+  width: 280px;
+  height: 370px;
+  box-shadow: 0px 17px 22px 6px rgba(78, 78, 78, 0.1);
+  padding: 4px 8px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.card_result_container img {
+  border-radius: 12px;
+  width: 262px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.card_result_header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card_action_container {
+  display: flex;
+  padding-top: 8px;
+  justify-content: right;
+}
+
+.card_result_container_btn {
+  display: flex;
+  background-color: var(--main-color-dark);
+  border-radius: 12px;
+  padding: 8px 12px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid var(--main-color-light);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  text-decoration: none;
+  width: 90px;
+}
+
+.card_result_container_btn:hover {
+  background-color: var(--main-color-light);
+  border: 1px solid var(--main-color-dark);
+  color: var(--main-color-dark);
+  cursor: pointer;
+}
+
+.card_text_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_container_section {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+}
+
+.footer_container_section span {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  text-align: center;
+  vertical-align: middle;
+}
