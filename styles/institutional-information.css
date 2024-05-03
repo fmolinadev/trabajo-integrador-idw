@@ -1,0 +1,61 @@
+
+body {
+    body {
+        margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+        display: flex; /* Usa flexbox para centrar el contenido verticalmente */
+        justify-content: center; /* Centra el contenido horizontalmente */
+        align-items: center; /* Centra el contenido verticalmente */
+        min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport */
+    }
+}
+
+
+h1 {
+    color: #000000;
+}
+
+main {
+    padding: 20px;
+}
+
+.seccion-centrada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.seccion-centrada img {
+    max-width: 30%; /* Ajustar el ancho máximo de la imagen */
+    margin-bottom: 30px; /* Espacio debajo de la imagen */
+}
+
+.contenido-centrado {
+    text-align: center; 
+}
+
+
+h2{
+        font-size: 24px; /* Ajusta el tamaño de la fuente */
+        font-weight: bold; /* Aplica negrita al texto */
+        text-decoration: underline; /* Subraya el texto */
+        border: 2px solid black; /* Encuadra el texto con un borde sólido de 2px */
+        padding: 10px; /* Añade relleno alrededor del texto */
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+.historia {
+    text-align: center; 
+}
+
+.equipo {
+    text-align: center; 
+}
+
+.equipo-imagen{
+    text-align: center;
+}
