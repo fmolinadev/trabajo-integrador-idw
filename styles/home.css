@@ -129,14 +129,14 @@
 .main_container_result {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 90%;
   margin: auto;
   width: 90%;
 }
 
 .all_results_container {
   display: grid;
-  position: relative;
+  grid-template-columns: auto auto auto auto;
   grid-template-columns: auto auto auto auto;
 }
 

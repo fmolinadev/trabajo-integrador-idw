@@ -25,7 +25,7 @@
 
 footer {
   background-color: var(--main-color-dark);
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   display: fixed;
