@@ -3,18 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/public/favicon_uner.ico" />
+    <link href="/index.css" rel="stylesheet" />
+    <link href="/styles/home.css" rel="stylesheet" />
+    <title>IDW</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/pages/home-page.html">Inicio</a></li>
-          <li><a href="/pages/contact-form.html">Contacto</a></li>
-          <li>
-            <a href="/pages/institutional-information.html">Sobre nosotros</a>
-          </li>
-        </ul>
-      </nav>
+  <body class="body_container">
+    <header class="header_container_main">
+      <div class="header_container_section">
+        <span class="header_branding">BookingIDW</span>
+        <nav class="header_navbar_container">
+          <ul>
+            <li><a href="/pages/home-page.html">Inicio</a></li>
+            <li><a href="/pages/contact-form.html">Contacto</a></li>
+            <li>
+              <a href="/pages/institutional-information.html">Sobre nosotros</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <main class="main_container">
+      <div class="main_container_hero">
+        <section class="main_section_text">
+          <h3>Hay 3764 hospedajes disponibles</h3>
+          <p>Nosotros encontramos el lugar, tu solo disfrutas.</p>
+        </section>
+        <section class="main_section_searchbar_container">
+          <input type="text" placeholder="Bucar alojamiento en..." />
+        </section>
+      </div>
+
+      <div class="main_container_result">
+        <section class="all_results_container">
+          <article class="card_result_container">
+            <img
+              src="/assets/images/placeholder_pictures.jpg"
+              alt="location-picture"
+            />
+            <header class="card_result_header">
+              <b>Nombre del alojamiento</b>
+              <p>$Precio</p>
+            </header>
+            <div>
+              <div class="card_text_container">
+                <p>Tipo de hospedaje:</p>
+                <p>---</p>
+              </div>
+              <div class="card_text_container">
+                <p>Capacidad:</p>
+                <p>---</p>
+              </div>
+              <div class="card_text_container">
+                <span>Calificaciones:</span>
+                <p>---</p>
+              </div>
+              <div class="card_action_container">
+                <button class="card_result_container_btn">Ver más</button>
+              </div>
+            </div>
+          </article>
+          <article class="card_result_container">
+            <img
+              src="/assets/images/placeholder_pictures.jpg"
+              alt="location-picture"
+            />
+            <header class="card_result_header">
+              <b>Nombre del alojamiento</b>
+              <p>$Precio</p>
+            </header>
+            <body>
+              <div class="card_text_container">
+                <p>Tipo de hospedaje:</p>
+                <p>---</p>
+              </div>
+              <div class="card_text_container">
+                <p>Capacidad:</p>
+                <p>---</p>
+              </div>
+              <div class="card_text_container">
+                <span>Calificaciones:</span>
+                <p>---</p>
+              </div>
+              <div class="card_action_container">
+                <button class="card_result_container_btn">Ver más</button>
+              </div>
+            </body>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container_section">
+        <span>Trabajo Integrador IDW</span>
+      </div>
+    </footer>
   </body>
 </html>
